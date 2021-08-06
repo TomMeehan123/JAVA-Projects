@@ -1,0 +1,82 @@
+Employees processed individually:
+
+salaried employee: John Smith
+social security number: 111-11-1111
+weekly salary: €800.00
+earned: €800.00
+
+hourly employee: Karen Price
+social security number: 222-22-2222
+hourly wage: €16.75; hours worked: 40.00
+earned: €670.00
+
+commission employee: Sue Jones
+social security number: 333-33-3333
+gross sales: €10,000.00; commission rate: 0.06
+earned: €600.00
+
+base-salaried commission employee: Bob Lewis
+social security number: 444-44-4444
+gross sales: €5,000.00; commission rate: 0.04; base salary: €300.00
+earned: €500.00
+
+Piece rate employee: Di Gress
+social security number: 333-33-3333
+rate: 2.25; pieces: 60.00
+earned: €135.00
+
+salaried employee: Per Pear
+social security number: 111-22-3333
+weekly salary: €900.00
+earned: €900.00
+
+hourly employee: Tom Meehan
+social security number: 18220975
+hourly wage: €18.50; hours worked: 56.00
+earned: €1,184.00
+
+Employees processed polymorphically:
+
+salaried employee: John Smith
+social security number: 111-11-1111
+weekly salary: €800.00
+earned €800.00
+
+hourly employee: Karen Price
+social security number: 222-22-2222
+hourly wage: €16.75; hours worked: 40.00
+earned €670.00
+
+commission employee: Sue Jones
+social security number: 333-33-3333
+gross sales: €10,000.00; commission rate: 0.06
+earned €600.00
+
+base-salaried commission employee: Bob Lewis
+social security number: 444-44-4444
+gross sales: €5,000.00; commission rate: 0.04; base salary: €300.00
+new base salary with 10% increase is: €330.00
+earned €530.00
+
+Piece rate employee: Di Gress
+social security number: 333-33-3333
+rate: 2.25; pieces: 60.00
+earned €135.00
+
+salaried employee: Per Pear
+social security number: 111-22-3333
+weekly salary: €900.00
+earned €900.00
+
+hourly employee: Tom Meehan
+social security number: 18220975
+hourly wage: €18.50; hours worked: 56.00
+earned €1,184.00
+
+Employee 0 is a SalariedEmployee
+Employee 1 is a HourlyEmployee
+Employee 2 is a CommissionEmployee
+Employee 3 is a BasePlusCommissionEmployee
+Employee 4 is a PieceWorker
+Employee 5 is a SalariedEmployee
+Employee 6 is a HourlyEmployee
